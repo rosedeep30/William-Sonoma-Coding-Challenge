@@ -5,4 +5,4 @@ We will sort the ranges with their lowerbounds. Then we will take the first zipc
 Sorting will take O(n log(n)) time and merging the ranges will take O(n). So the algorithm takes O(n log(n)) time.
 
 # Test Cases
-src/CalMinRangeTest.java
+src/ZipcodeValidation/CalMinRangeTest.java
