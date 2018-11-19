@@ -18,7 +18,7 @@ public class CalcMinRange {
 
     public  List<List<Integer>> minRanges(List<List<Integer>> zipcodes) {
 
-        if (zipcodes == null || zipcodes.size() <= 1)
+        if (zipcodes == null || zipcodes.size() <= 1) // if the zipcodes is null or there is 0 or 1 zipcode range return zipcodes.
             return zipcodes;
 
         // Sort the starting point by ascending order using an Comparator
